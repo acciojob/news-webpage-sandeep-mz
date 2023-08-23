@@ -24,7 +24,7 @@ header {
             
 }
 
-	  .news-section {
+	  .latest-news-section {
             background-color: white;
             padding: 20px;
             border-radius: 10px;
@@ -33,7 +33,7 @@ header {
 		    height:100%;
 		  width:100%;
         }
-        .img-section{
+        .pictorial-news-section{
 			background-color: white;
             padding: 20px;
             border-radius: 10px;

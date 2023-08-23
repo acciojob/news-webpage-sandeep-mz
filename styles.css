@@ -15,50 +15,52 @@ header {
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap; /* Allow flex items to wrap to a new line */
-    justify-content: space-between; /* Distribute items evenly */
-    max-width: 1200px; /* Added to limit maximum width */
-    margin: auto;
-    padding: 20px;
-	display:flex;
+ 
+    justify-content: space-between;
+    padding: 10px;
+	display: flex;
+	margin:20px;
+	
+            
 }
 
-  .news-section {
+	  .news-section {
             background-color: white;
             padding: 20px;
             border-radius: 10px;
             text-align: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
+		    height:100%;
+		  width:100%;
         }
         .img-section{
-			width:100%;
 			background-color: white;
             padding: 20px;
             border-radius: 10px;
             text-align: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;
-			display-flex:none;
+			display: flex;
+            flex-direction: column;
+            align-items: center;
+			  height:100%;
+			width:100%
 		}
        .main-atical{
 			background-color: white;
+		   width:100%;
+		    height:100%;
             padding: 20px;
             border-radius: 10px;
             text-align: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;
+		   
 			
 	   }
 
- .img-section img {
-	width: 100%;
-    height:30%;
-	background-color: white;
-
+ 
 }
-
 ul li {
     margin-bottom: 10px;
 }
